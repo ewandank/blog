@@ -1,0 +1,25 @@
+baseURL: "http://example.org/"
+languageCode: "en-au"
+title: "Ewan's Blog"
+enableRobots.txt: true
+theme:  ["github.com/Mitrichius/hugo-theme-anubis"]
+
+# menu:
+#   main:
+#   - identifier: archive
+#     name: Archive
+#     title: Archive
+#     url: /posts/
+#     weight: 0   
+
+
+params:
+  disableSummary: true
+  author: "Ewan Dank"
+  dateFormat: "02 Jan 2006"
+  style: dark
+  social: 
+  - id: github
+    name: ewandank
+  - id: linkedin
+    name: ewandankesreither
